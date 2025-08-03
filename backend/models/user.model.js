@@ -13,7 +13,8 @@ const UserSchema = new mongoose.Schema({
         lastname:{
             type:String,
             required:false
-        },
+        }
+          },
         email:{
             type:String,
             required:true,
@@ -28,7 +29,7 @@ const UserSchema = new mongoose.Schema({
         socketID:{
             type:String
         }
-    }
+  
 });
 
 
